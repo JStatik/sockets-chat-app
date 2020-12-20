@@ -1,0 +1,28 @@
+.search-user input, .box-messages .row div input, .login .form-group div input, #privateMessage {
+    background-color: transparent;
+    background-position: center bottom, center calc(100% - 1px);
+    background-repeat: no-repeat;
+    background-size: 0 2px, 100% 1px; 
+    -webkit-transition: background 0s ease-out 0s;
+    -o-transition: background 0s ease-out 0s;
+    transition: background 0s ease-out 0s;
+}
+
+.search-user input, .search-user input:focus, .box-messages .row div input, .box-messages .row div input:focus, .login .form-group div input, .login .form-group div input:focus, #privateMessage, #privateMessage:focus {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#198754), to(#198754)), -webkit-gradient(linear, left top, left bottom, from(#e9edf2), to(#e9edf2));
+    background-image: -webkit-linear-gradient(#198754, #198754), -webkit-linear-gradient(#e9edf2, #e9edf2);
+    background-image: -o-linear-gradient(#198754, #198754), -o-linear-gradient(#e9edf2, #e9edf2);
+    background-image: linear-gradient(#198754,#198754), linear-gradient(#e9edf2, #e9edf2);
+    border: 0 none;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.search-user input:focus, .box-messages .row div input:focus, .login .form-group div input:focus, #privateMessage:focus {
+    background-size: 100% 2px, 100% 1px;
+    outline: 0 none;
+    -webkit-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
